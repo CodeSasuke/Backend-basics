@@ -6,6 +6,8 @@ New here? Start with [START_HERE.md](START_HERE.md).
 
 Use [PROGRESS.md](PROGRESS.md) to track completion, [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) to understand the learner files, and [ROADMAP.md](ROADMAP.md) as the navigation hub.
 
+Read [SOCRATIC_METHOD.md](SOCRATIC_METHOD.md) to understand the dialogue-based teaching approach.
+
 ## Learning Loop
 
 For each module, work in this order:

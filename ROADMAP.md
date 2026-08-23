@@ -2,7 +2,7 @@
 
 This file is the course index. Use it to choose the next module and open its materials. The explanations, visuals, Socratic questions, exercises, and code belong inside the module folders.
 
-[Start here](START_HERE.md) |
+[Start here](START_HERE.md) | [Socratic method](SOCRATIC_METHOD.md) |
 [Progress dashboard](PROGRESS.md) | [Template guide](TEMPLATE_GUIDE.md) | [Shared notes-service project](projects/notes-service/README.md)
 
 ## Learning Flow
