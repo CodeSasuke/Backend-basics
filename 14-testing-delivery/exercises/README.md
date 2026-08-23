@@ -2,7 +2,7 @@
 
 [Expected observations](expected.md) | [Levels](levels.md)
 
-[Previous: Security](../../13-security/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Deployment And Scaling](../../15-deployment-scaling/exercises/README.md)
+[Previous: Security](../../13-security/exercises/README.md) | [Theory](../theory/README.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Deployment And Scaling](../../15-deployment-scaling/exercises/README.md)
 
 - Unit-test a domain invariant and integration-test persistence.
 - Break the API contract and identify the clearest failing test.

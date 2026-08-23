@@ -1,7 +1,5 @@
 # 10. Errors, Timeouts And Retries
 
-[Detailed lesson](lesson.md)
-
 [Previous: Caches And Queues](../../09-caches-queues/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/theory/README.md)
 
 ## Code Example
@@ -20,3 +18,26 @@ Ask: Which failures are retryable? When does a retry duplicate a side effect? Ho
 ## Exit Check
 
 Explain the difference between failed work and unknown outcome.
+
+## Complete Lesson
+
+Dependencies fail, become slow, or return unknown outcomes. A backend needs deadlines, bounded retries, backoff, idempotency, and a clear fallback.
+
+A payment timeout does not prove that payment did not happen. An idempotency key lets a retry refer to the same operation. Ask which failures are retryable and how to prevent retries from multiplying load.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

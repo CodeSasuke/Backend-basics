@@ -2,7 +2,7 @@
 
 [Expected observations](expected.md) | [Levels](levels.md)
 
-[Previous: Transactions](../../08-transactions/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Failure And Retries](../../10-failure-retries/exercises/README.md)
+[Previous: Transactions](../../08-transactions/exercises/README.md) | [Theory](../theory/README.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Failure And Retries](../../10-failure-retries/exercises/README.md)
 
 - Add expiration to a cache and observe stale reads.
 - Deliver one job twice and make the result durable only once.

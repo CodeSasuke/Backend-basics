@@ -1,7 +1,5 @@
 # 16. Capstone Theory: Reliable Notes And Jobs Platform
 
-[Detailed lesson](lesson.md)
-
 [Previous: Deployment And Scaling](../../15-deployment-scaling/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Build log](../exercises/experiment.md) | [Starter code](../code/main.py)
 
 ## Code Example
@@ -26,3 +24,26 @@ client -> API -> use case -> database
 ## Completion Standard
 
 A design is complete only when its normal path, failure path, evidence, security boundary, and recovery path are documented.
+
+## Complete Lesson
+
+A production backend combines API contracts, domain invariants, durable state, transactions, asynchronous work, failure handling, security, observability, testing, and deployment.
+
+A note request validates its contract, checks ownership, commits durable state, emits work, and returns an answer safe to retry. Ask what is the source of truth for each fact, which operations are safe to retry, and what the client observes during deployment.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

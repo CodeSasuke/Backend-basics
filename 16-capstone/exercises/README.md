@@ -2,7 +2,7 @@
 
 [Expected observations](expected.md) | [Levels](levels.md)
 
-[Previous: Deployment And Scaling](../../15-deployment-scaling/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Build log](experiment.md) | [Review](answers.md) | [Starter code](../code/main.py)
+[Previous: Deployment And Scaling](../../15-deployment-scaling/exercises/README.md) | [Theory](../theory/README.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Build log](experiment.md) | [Review](answers.md) | [Starter code](../code/main.py)
 
 Complete the platform in vertical slices. Each slice must include a contract, code, tests, and evidence.
 

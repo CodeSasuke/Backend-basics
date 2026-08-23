@@ -2,7 +2,7 @@
 
 [Expected observations](expected.md) | [Levels](levels.md)
 
-[Previous: Persistence Modeling](../../07-persistence-modeling/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Caches And Queues](../../09-caches-queues/exercises/README.md)
+[Previous: Persistence Modeling](../../07-persistence-modeling/exercises/README.md) | [Theory](../theory/README.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Caches And Queues](../../09-caches-queues/exercises/README.md)
 
 - Compare a query plan before and after adding an index.
 - Run two withdrawals concurrently against one account.

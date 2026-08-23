@@ -20,8 +20,7 @@ Every module has:
 
 ```text
 module/
-  theory/README.md       concepts, visuals, Socratic prompts
-  theory/notes.md        your theory notes
+  theory/README.md       complete lesson followed by your notes
   exercises/README.md   experiments, tasks, exit checks
   exercises/hints.md    optional hints
   exercises/levels.md   four levels of practice

@@ -1,7 +1,5 @@
 # 01. Processes And State
 
-[Detailed lesson](lesson.md)
-
 [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/theory/README.md)
 
 ## Code Example
@@ -36,3 +34,36 @@ Use a function for a state transition and keep input/output at the boundary. Thi
 ## Exit Check
 
 Explain the difference between value, state, and side effect using a bank ledger.
+ 
+## Complete Lesson
+
+A backend handles many inputs over time. A single calculation is easy; remembering what happened and making the next decision correctly is the real problem. A program is instructions, a process is those instructions running, and state is information that changes future results.
+
+```text
+input + old state -> rules -> output + new state
+                                      |
+                                      +-> file, database, or network effect
+```
+
+For a ledger with balance `10`, `withdraw 4` produces output `6` and new state `6`. `withdraw 20` must produce an error and preserve state `10`. The invariant is the rule that must always remain true.
+
+Ask yourself: What disappears when the process stops? Which operations are pure transformations? Why should invalid input leave state unchanged?
+
+Common mistakes include confusing a variable with durable storage, allowing invalid transitions to mutate state, and testing only the happy path.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

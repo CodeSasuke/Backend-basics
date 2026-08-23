@@ -2,8 +2,7 @@
 
 Each module gives you blank working files so the learning record stays separate from the reference lesson.
 
-- `theory/notes.md`: rewrite the concept in your own words, draw a model, and answer the questions.
-- `theory/lesson.md`: detailed first-principles lesson with worked example and mastery check.
+- `theory/README.md`: complete first-principles lesson followed by your notes section.
 - `exercises/experiment.md`: make a prediction before running code, then record evidence and changed assumptions.
 - `exercises/answers.md`: design the task, list invariants, record failures, and review the fix.
 - `exercises/hints.md`: optional prompts to unblock thinking without revealing the implementation.

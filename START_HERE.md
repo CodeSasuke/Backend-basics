@@ -28,7 +28,7 @@ python3 -m unittest discover -s tests
 ## Your First Study Session
 
 1. Open [Module 1 theory](01-processes-and-state/theory/README.md).
-2. Answer the Socratic questions in [your theory notes](01-processes-and-state/theory/notes.md).
+2. Answer the Socratic questions in the notes section at the end of [Module 1 theory](01-processes-and-state/theory/README.md).
 3. Read [Module 1 exercises](01-processes-and-state/exercises/README.md).
 4. Write a prediction in the [experiment log](01-processes-and-state/exercises/experiment.md).
 5. Run the reference program:

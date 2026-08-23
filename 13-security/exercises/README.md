@@ -2,7 +2,7 @@
 
 [Expected observations](expected.md) | [Levels](levels.md)
 
-[Previous: Observability](../../12-observability/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Testing And Delivery](../../14-testing-delivery/exercises/README.md)
+[Previous: Observability](../../12-observability/exercises/README.md) | [Theory](../theory/README.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Testing And Delivery](../../14-testing-delivery/exercises/README.md)
 
 - Build an authorization matrix for users, notes, and administrators.
 - Send malformed and unexpected input to every public field.

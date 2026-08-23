@@ -1,7 +1,5 @@
 # 05. API Design And Contracts
 
-[Detailed lesson](lesson.md)
-
 [Previous: Networking And HTTP](../../04-networking-http/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Application Structure](../../06-application-structure/theory/README.md)
 
 ## Code Example
@@ -19,3 +17,26 @@ Ask: What can a client rely on after success? Which errors are retryable? Is thi
 ## Exit Check
 
 Change internal storage without changing the API contract and explain why clients continue working.
+
+## Complete Lesson
+
+Clients and servers evolve independently. An API contract defines input schemas, output schemas, errors, guarantees, and compatibility rules. A create-note operation should define required fields, invalid-field errors, its success shape, and whether repeating a request creates one note or two.
+
+Ask yourself: What can a client safely rely on? Is idempotency a name or a behavior? Which changes are backwards-compatible? Keep storage details private and never leak database errors as the public contract.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

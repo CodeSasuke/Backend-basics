@@ -1,7 +1,5 @@
 # 09. Caches, Queues And Derived State
 
-[Detailed lesson](lesson.md)
-
 [Previous: Transactions](../../08-transactions/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Failure And Retries](../../10-failure-retries/theory/README.md)
 
 ## Code Example
@@ -20,3 +18,26 @@ Ask: What is the cost of stale data? What if a consumer crashes after doing work
 ## Exit Check
 
 Identify the source of truth and the repair path for every derived value.
+
+## Complete Lesson
+
+A cache improves speed but may be stale. A queue separates producers and consumers, introducing delay, duplication, ordering, acknowledgement, and retry questions. Derived data needs a repair path.
+
+A report job may be delivered twice. A durable job ID lets the consumer recognize completed work and avoid duplicate results. Ask when stale reads are acceptable and how derived data can be rebuilt. Never assume exactly-once delivery.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

@@ -1,7 +1,5 @@
 # 15. Deployment, Scaling And System Design
 
-[Detailed lesson](lesson.md)
-
 [Previous: Testing And Delivery](../../14-testing-delivery/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/theory/README.md)
 
 ## Code Example
@@ -20,3 +18,26 @@ Ask: What does stateless mean? Which component saturates first at ten times traf
 ## Exit Check
 
 Defend one scaling decision with an estimate and name its uncertainty.
+
+## Complete Lesson
+
+Production introduces variable traffic, finite resources, dependency failures, and operational ownership. Scaling relieves bottlenecks while managing state, consistency, coordination, and cost.
+
+Adding service instances does not fix a saturated database. Capacity estimates begin with assumptions about concurrency, latency, and resource limits. Health means the process can serve; readiness means dependencies are usable.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer

@@ -9,8 +9,6 @@ ROOT = Path(__file__).resolve().parents[1]
 MODULES = sorted(path for path in ROOT.iterdir() if path.is_dir() and re.match(r"^\d{2}-", path.name))
 REQUIRED = (
     "theory/README.md",
-    "theory/lesson.md",
-    "theory/notes.md",
     "exercises/README.md",
     "exercises/experiment.md",
     "exercises/answers.md",

@@ -1,7 +1,5 @@
 # 04. Networking And HTTP
 
-[Detailed lesson](lesson.md)
-
 [Previous: Protocols](../../03-protocols/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/theory/README.md)
 
 ## Code Example
@@ -30,3 +28,36 @@ A timeout means the caller lacks an answer. It does not prove that the server di
 ## Exit Check
 
 Trace one request from client intent to server response and list every boundary.
+ 
+## Complete Lesson
+
+A network adds distance, latency, packet loss, independent failures, and uncertainty. The caller and server do not share memory or a clock. HTTP gives request and response bytes shared meaning through method, target, headers, body, and status.
+
+```text
+client -- request --> server
+client <-- response -- server
+       connection can fail at any point
+```
+
+A health request can return `200`; an unknown path can return `404`. A timeout means the caller has no answer, not that the server did nothing.
+
+Ask yourself: Why can a server receive a request but fail to respond? Which operations are safe to retry? What belongs in headers?
+
+Common mistakes include retrying writes blindly, forgetting timeouts, and treating status codes as the entire API contract.
+
+## My Notes
+
+### Problem and explanation
+
+
+### My visual
+
+```text
+
+```
+
+### Socratic answers
+
+- 
+
+### Exit-check answer
