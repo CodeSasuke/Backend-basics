@@ -25,6 +25,16 @@ Concurrency manages multiple in-progress tasks; parallelism executes work simult
 
 A bounded worker pool processes independent I/O jobs while refusing unlimited work, creating backpressure. Ask whether work is CPU-bound or I/O-bound, what state is shared, and who owns it.
 
+## Dialogue Check
+
+**You:** Why run these tasks together?
+
+**Guide:** Independent work can overlap, but shared state and finite resources need ownership and limits.
+
+**You:** What should I measure?
+
+**Guide:** Compare throughput, latency, failures, and queued work as the worker limit changes.
+
 ## My Notes
 
 ### Problem and explanation

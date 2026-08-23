@@ -24,6 +24,16 @@ Public inputs and external identities are untrusted. Security protects confident
 
 A user may authenticate successfully but still be forbidden from reading another user's private note. Ask what the asset is, where data can become code or a query, and what happens if a token is stolen. Never store plaintext passwords or log secrets.
 
+## Dialogue Check
+
+**You:** Who is this caller, and what may they do?
+
+**Guide:** Keep authentication and authorization separate, then check the resource owner at the server boundary.
+
+**You:** What should I challenge?
+
+**Guide:** Try another identity, malformed input, and a request containing data that must never become a command.
+
 ## My Notes
 
 ### Problem and explanation

@@ -51,6 +51,16 @@ Ask yourself: What disappears when the process stops? Which operations are pure 
 
 Common mistakes include confusing a variable with durable storage, allowing invalid transitions to mutate state, and testing only the happy path.
 
+## Dialogue Check
+
+**You:** What should happen next?
+
+**Guide:** Use the model above to predict the output and the state change before running the code.
+
+**You:** How will I know if I am right?
+
+**Guide:** Run the experiment, compare the result, and explain any difference in your notes.
+
 ## My Notes
 
 ### Problem and explanation

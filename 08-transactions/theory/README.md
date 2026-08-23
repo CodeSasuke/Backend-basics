@@ -32,6 +32,16 @@ A transfer must subtract from one account and add to another in one transaction.
 
 Ask yourself: Can two valid transactions create an invalid result? What does atomicity protect? Which query benefits from an index?
 
+## Dialogue Check
+
+**You:** What if the second change fails?
+
+**Guide:** A correct transaction leaves no half-finished result. Predict the state, force a failure, and inspect it.
+
+**You:** What about two workers at once?
+
+**Guide:** Write their operations in time order and look for a lost update or broken invariant.
+
 ## My Notes
 
 ### Problem and explanation

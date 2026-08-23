@@ -28,6 +28,12 @@ def main() -> int:
             if not (module / relative_path).exists():
                 missing.append(f"{module.name}/{relative_path}")
 
+        theory = (module / "theory/README.md").read_text()
+        if "## Dialogue Check" not in theory:
+            missing.append(f"{module.name}/theory/README.md: dialogue check")
+        if "## My Notes" not in theory:
+            missing.append(f"{module.name}/theory/README.md: learner notes")
+
     links = re.findall(r"\]\(([^)#]+)\)", (ROOT / "ROADMAP.md").read_text())
     broken_links = [link for link in links if not (ROOT / link).exists()]
     if missing or broken_links:

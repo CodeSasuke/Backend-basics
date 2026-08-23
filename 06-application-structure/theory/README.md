@@ -30,6 +30,16 @@ The adapter translates protocols, the use case coordinates work, domain code dec
 
 Ask yourself: Which layer should know an HTTP status? Where does a transaction begin? What can change independently? Avoid putting all logic in handlers.
 
+## Dialogue Check
+
+**You:** Which part of the request makes this decision?
+
+**Guide:** Separate protocol translation, workflow coordination, domain rules, and infrastructure access.
+
+**You:** How do I know the boundary is useful?
+
+**Guide:** Replace one dependency or test one rule without opening a network connection.
+
 ## My Notes
 
 ### Problem and explanation

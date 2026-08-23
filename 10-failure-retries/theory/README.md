@@ -25,6 +25,16 @@ Dependencies fail, become slow, or return unknown outcomes. A backend needs dead
 
 A payment timeout does not prove that payment did not happen. An idempotency key lets a retry refer to the same operation. Ask which failures are retryable and how to prevent retries from multiplying load.
 
+## Dialogue Check
+
+**You:** Should I retry this failure?
+
+**Guide:** First decide whether it may recover and whether repeating the side effect is safe.
+
+**You:** How do I limit harm?
+
+**Guide:** Set a deadline, attempt budget, and backoff, then record the unknown-outcome case.
+
 ## My Notes
 
 ### Problem and explanation

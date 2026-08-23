@@ -49,6 +49,16 @@ Ask yourself: Who owns cleanup after an exception? What is the difference betwee
 
 Common mistakes include ignoring cleanup, treating configuration as optional, and creating unlimited workers or open files.
 
+## Dialogue Check
+
+**You:** What could fail at this boundary?
+
+**Guide:** Name the resource, its owner, its limit, and its cleanup action before running the experiment.
+
+**You:** What should I observe?
+
+**Guide:** Compare your prediction with the process output and record the evidence.
+
 ## My Notes
 
 ### Problem and explanation

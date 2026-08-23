@@ -43,6 +43,16 @@ Ask yourself: How does the receiver know where a message ends? What happens to a
 
 Common mistakes include combining parsing and business rules in one opaque function and changing a format without a compatibility plan.
 
+## Dialogue Check
+
+**You:** Do these bytes form a valid message?
+
+**Guide:** Decode them, find the boundary, validate the shape, and only then assign meaning.
+
+**You:** What should I test next?
+
+**Guide:** Try one valid message, one malformed message, and one future-compatible message.
+
 ## My Notes
 
 ### Problem and explanation

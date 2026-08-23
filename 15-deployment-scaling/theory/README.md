@@ -25,6 +25,16 @@ Production introduces variable traffic, finite resources, dependency failures, a
 
 Adding service instances does not fix a saturated database. Capacity estimates begin with assumptions about concurrency, latency, and resource limits. Health means the process can serve; readiness means dependencies are usable.
 
+## Dialogue Check
+
+**You:** What is the bottleneck under more traffic?
+
+**Guide:** State assumptions, estimate capacity, and measure before adding more instances.
+
+**You:** What new risk could scaling create?
+
+**Guide:** Consider coordination, shared state, consistency, cost, and rollback.
+
 ## My Notes
 
 ### Problem and explanation

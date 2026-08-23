@@ -32,6 +32,16 @@ An account balance can have a database constraint that it is never negative. App
 
 Ask yourself: Which facts must survive restart? What is the source of truth? Where should uniqueness be enforced?
 
+## Dialogue Check
+
+**You:** Which facts must survive a restart?
+
+**Guide:** Mark the source of truth and write the invariant that must remain true after saving.
+
+**You:** What evidence do I need?
+
+**Guide:** Stop and restart the process, then inspect the stored facts and any rejected invalid state.
+
 ## My Notes
 
 ### Problem and explanation

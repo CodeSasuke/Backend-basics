@@ -45,6 +45,16 @@ Ask yourself: Why can a server receive a request but fail to respond? Which oper
 
 Common mistakes include retrying writes blindly, forgetting timeouts, and treating status codes as the entire API contract.
 
+## Dialogue Check
+
+**You:** What does the client know after this response or timeout?
+
+**Guide:** Separate confirmed facts from unknown outcomes, then choose whether retrying is safe.
+
+**You:** How can I test that idea?
+
+**Guide:** Make a prediction, use the client, and record the request and response evidence.
+
 ## My Notes
 
 ### Problem and explanation

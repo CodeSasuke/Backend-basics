@@ -25,6 +25,16 @@ A running service is too complex to inspect directly. Logs describe events, metr
 
 Ask what evidence separates client slowness from database slowness and what must never be logged. Debugging should test a falsifiable hypothesis.
 
+## Dialogue Check
+
+**You:** What evidence would prove my hypothesis?
+
+**Guide:** Choose a safe log, metric, or trace that can distinguish the possible causes.
+
+**You:** Is the average enough?
+
+**Guide:** Check the distribution and the slow outliers before deciding what to change.
+
 ## My Notes
 
 ### Problem and explanation

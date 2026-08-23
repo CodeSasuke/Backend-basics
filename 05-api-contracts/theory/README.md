@@ -24,6 +24,16 @@ Clients and servers evolve independently. An API contract defines input schemas,
 
 Ask yourself: What can a client safely rely on? Is idempotency a name or a behavior? Which changes are backwards-compatible? Keep storage details private and never leak database errors as the public contract.
 
+## Dialogue Check
+
+**You:** What promise does this API make to its client?
+
+**Guide:** State its inputs, outputs, errors, and guarantees without mentioning its private implementation.
+
+**You:** How can I challenge the contract?
+
+**Guide:** Send valid, invalid, repeated, and old-client requests, then record what remains predictable.
+
 ## My Notes
 
 ### Problem and explanation

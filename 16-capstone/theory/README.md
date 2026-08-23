@@ -31,6 +31,16 @@ A production backend combines API contracts, domain invariants, durable state, t
 
 A note request validates its contract, checks ownership, commits durable state, emits work, and returns an answer safe to retry. Ask what is the source of truth for each fact, which operations are safe to retry, and what the client observes during deployment.
 
+## Dialogue Check
+
+**You:** How do all these ideas work together?
+
+**Guide:** Follow one request across contract, domain, storage, queue, security, failure handling, and telemetry.
+
+**You:** How do I prove the design is complete?
+
+**Guide:** Show the normal path, failure path, evidence, recovery path, and guarantee you intentionally do not provide.
+
 ## My Notes
 
 ### Problem and explanation

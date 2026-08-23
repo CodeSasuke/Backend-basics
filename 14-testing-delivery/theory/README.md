@@ -26,6 +26,16 @@ Code can appear correct while violating important behavior. Unit tests isolate r
 
 A unit test proves an overdraft is rejected; an integration test proves the database constraint and transaction behavior. Ask which behavior is worth protecting and what a clean checkout must reproduce.
 
+## Dialogue Check
+
+**You:** Which behavior must never regress?
+
+**Guide:** Write the smallest test that proves it, then add a boundary test where components meet.
+
+**You:** What makes delivery repeatable?
+
+**Guide:** A clean checkout should run the same checks without relying on your machine.
+
 ## My Notes
 
 ### Problem and explanation

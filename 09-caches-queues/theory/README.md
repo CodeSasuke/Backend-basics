@@ -25,6 +25,16 @@ A cache improves speed but may be stale. A queue separates producers and consume
 
 A report job may be delivered twice. A durable job ID lets the consumer recognize completed work and avoid duplicate results. Ask when stale reads are acceptable and how derived data can be rebuilt. Never assume exactly-once delivery.
 
+## Dialogue Check
+
+**You:** Is this value the source of truth or a copy?
+
+**Guide:** If it is a cache or derived result, define how stale data, duplicate work, and rebuilding are handled.
+
+**You:** What should I try?
+
+**Guide:** Deliver the same job twice and observe whether the durable result is duplicated.
+
 ## My Notes
 
 ### Problem and explanation
