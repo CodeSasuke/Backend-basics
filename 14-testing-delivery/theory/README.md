@@ -1,0 +1,17 @@
+# 14. Testing And Delivery
+
+[Previous: Security](../../13-security/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Deployment And Scaling](../../15-deployment-scaling/theory/README.md)
+
+Tests are executable claims about behavior. Unit tests isolate rules, integration tests verify boundaries, contract tests protect agreements, and end-to-end tests verify workflows.
+
+```text
+many fast focused unit tests
+fewer integration and contract tests
+few broad end-to-end tests
+```
+
+Ask: Which behavior is valuable to protect? Which failure gives the best signal? Are tests coupled to implementation details?
+
+## Exit Check
+
+Prove that a refactor preserved behavior, not merely object structure.

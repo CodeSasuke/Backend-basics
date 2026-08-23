@@ -1,0 +1,17 @@
+# Exercise Answers
+
+[Exercises](README.md) | [Roadmap](../../ROADMAP.md) | [Theory](../../01-processes-and-state/theory/README.md) | [Experiment](experiment.md) | [Hints](hints.md) | [Solution](../../01-processes-and-state/code/solution.py)
+
+## Experiment answers
+
+
+## Task design
+
+- Invariants:
+- Valid transitions:
+- Invalid transitions:
+
+## Review
+
+- What failed?
+- What evidence supports the fix?
