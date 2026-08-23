@@ -24,6 +24,7 @@ module/
   theory/notes.md        your theory notes
   exercises/README.md   experiments, tasks, exit checks
   exercises/hints.md    optional hints
+  exercises/levels.md   four levels of practice
   exercises/experiment.md prediction and evidence
   exercises/answers.md   your answers and review
   code/main.py           Python starting point

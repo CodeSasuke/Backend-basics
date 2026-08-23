@@ -1,6 +1,8 @@
 # Exercises: Application Structure
 
-[Previous: API Contracts](../../05-api-contracts/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Persistence Modeling](../../07-persistence-modeling/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: API Contracts](../../05-api-contracts/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Persistence Modeling](../../07-persistence-modeling/exercises/README.md)
 
 - Extract domain logic from an HTTP handler.
 - Replace a real repository with an in-memory fake in tests.

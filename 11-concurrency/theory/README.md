@@ -1,5 +1,7 @@
 # 11. Concurrency And Parallelism
 
+[Detailed lesson](lesson.md)
+
 [Previous: Failure And Retries](../../10-failure-retries/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Observability](../../12-observability/theory/README.md)
 
 ## Code Example

@@ -1,6 +1,8 @@
 # Exercises: Networking And HTTP
 
-[Previous: Protocols](../../03-protocols/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: Protocols](../../03-protocols/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/exercises/README.md)
 
 - Inspect method, path, headers, body, and status with `curl`.
 - Compare read and write requests by their retry behavior.

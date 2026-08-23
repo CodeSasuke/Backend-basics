@@ -1,6 +1,8 @@
 # Exercises: Observability
 
-[Previous: Concurrency](../../11-concurrency/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Security](../../13-security/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: Concurrency](../../11-concurrency/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Security](../../13-security/exercises/README.md)
 
 - Correlate events from one request with a request ID.
 - Compare average latency with a high percentile.

@@ -1,5 +1,7 @@
 # 08. Queries, Indexes And Transactions
 
+[Detailed lesson](lesson.md)
+
 [Previous: Persistence Modeling](../../07-persistence-modeling/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Caches And Queues](../../09-caches-queues/theory/README.md)
 
 ## Code Example

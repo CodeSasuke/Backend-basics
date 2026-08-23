@@ -1,6 +1,8 @@
 # Exercises: Processes And State
 
-[Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/exercises/README.md)
 
 ## Experiment 1: Predict The Transition
 

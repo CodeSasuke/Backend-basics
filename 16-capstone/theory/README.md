@@ -1,5 +1,7 @@
 # 16. Capstone Theory: Reliable Notes And Jobs Platform
 
+[Detailed lesson](lesson.md)
+
 [Previous: Deployment And Scaling](../../15-deployment-scaling/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Build log](../exercises/experiment.md) | [Starter code](../code/main.py)
 
 ## Code Example

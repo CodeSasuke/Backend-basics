@@ -1,6 +1,8 @@
 # Exercises: Deployment And Scaling
 
-[Previous: Testing And Delivery](../../14-testing-delivery/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: Testing And Delivery](../../14-testing-delivery/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/exercises/README.md)
 
 - Estimate capacity from measured latency and a concurrency limit.
 - Run two instances and find state incorrectly kept local.

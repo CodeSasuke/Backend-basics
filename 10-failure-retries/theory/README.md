@@ -1,5 +1,7 @@
 # 10. Errors, Timeouts And Retries
 
+[Detailed lesson](lesson.md)
+
 [Previous: Caches And Queues](../../09-caches-queues/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/theory/README.md)
 
 ## Code Example

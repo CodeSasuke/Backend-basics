@@ -1,6 +1,8 @@
 # Exercises: Protocols
 
-[Previous: OS Resources](../../02-os-resources/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Networking And HTTP](../../04-networking-http/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: OS Resources](../../02-os-resources/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Networking And HTTP](../../04-networking-http/exercises/README.md)
 
 - Design a line-delimited job protocol and document its grammar.
 - Encode the same message as JSON and as a delimiter format.

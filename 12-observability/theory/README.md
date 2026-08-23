@@ -1,5 +1,7 @@
 # 12. Observability And Debugging
 
+[Detailed lesson](lesson.md)
+
 [Previous: Concurrency](../../11-concurrency/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Security](../../13-security/theory/README.md)
 
 ## Code Example

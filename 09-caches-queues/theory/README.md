@@ -1,5 +1,7 @@
 # 09. Caches, Queues And Derived State
 
+[Detailed lesson](lesson.md)
+
 [Previous: Transactions](../../08-transactions/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Failure And Retries](../../10-failure-retries/theory/README.md)
 
 ## Code Example

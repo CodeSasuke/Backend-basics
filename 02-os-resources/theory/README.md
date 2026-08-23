@@ -1,5 +1,7 @@
 # 02. Operating Systems And Resource Boundaries
 
+[Detailed lesson](lesson.md)
+
 [Previous: Processes And State](../../01-processes-and-state/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Protocols](../../03-protocols/theory/README.md)
 
 ## Code Example

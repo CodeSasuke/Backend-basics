@@ -1,5 +1,7 @@
 # 15. Deployment, Scaling And System Design
 
+[Detailed lesson](lesson.md)
+
 [Previous: Testing And Delivery](../../14-testing-delivery/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/theory/README.md)
 
 ## Code Example

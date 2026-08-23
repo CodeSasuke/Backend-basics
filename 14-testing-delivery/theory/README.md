@@ -1,5 +1,7 @@
 # 14. Testing And Delivery
 
+[Detailed lesson](lesson.md)
+
 [Previous: Security](../../13-security/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Deployment And Scaling](../../15-deployment-scaling/theory/README.md)
 
 ## Code Example

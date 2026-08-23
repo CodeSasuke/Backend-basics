@@ -1,6 +1,8 @@
 # Exercises: Errors And Retries
 
-[Previous: Caches And Queues](../../09-caches-queues/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/exercises/README.md)
+[Expected observations](expected.md) | [Levels](levels.md)
+
+[Previous: Caches And Queues](../../09-caches-queues/exercises/README.md) | [Theory](../theory/README.md) | [Notes](../theory/notes.md) | [Roadmap](../../ROADMAP.md) | [Levels](levels.md) | [Experiment log](experiment.md) | [Answers](answers.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/exercises/README.md)
 
 - Measure total latency as retry delay changes.
 - Add a retry budget and prove it stops.

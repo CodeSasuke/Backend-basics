@@ -1,5 +1,7 @@
 # 05. API Design And Contracts
 
+[Detailed lesson](lesson.md)
+
 [Previous: Networking And HTTP](../../04-networking-http/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Application Structure](../../06-application-structure/theory/README.md)
 
 ## Code Example

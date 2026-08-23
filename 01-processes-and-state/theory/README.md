@@ -1,5 +1,7 @@
 # 01. Processes And State
 
+[Detailed lesson](lesson.md)
+
 [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/theory/README.md)
 
 ## Code Example

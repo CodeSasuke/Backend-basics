@@ -1,5 +1,7 @@
 # 04. Networking And HTTP
 
+[Detailed lesson](lesson.md)
+
 [Previous: Protocols](../../03-protocols/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/theory/README.md)
 
 ## Code Example
