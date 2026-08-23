@@ -2,6 +2,10 @@
 
 [Previous: Failure And Retries](../../10-failure-retries/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Observability](../../12-observability/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Concurrency manages multiple in-progress tasks; parallelism executes work simultaneously. Both can improve throughput and can create races, contention, starvation, and exhaustion.
 
 ```text

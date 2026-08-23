@@ -2,6 +2,10 @@
 
 [Previous: Testing And Delivery](../../14-testing-delivery/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Deployment places a service in an environment with finite resources and operational ownership. Scaling means finding and relieving bottlenecks while managing state, coordination, consistency, and cost.
 
 ```text

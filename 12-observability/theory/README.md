@@ -2,6 +2,10 @@
 
 [Previous: Concurrency](../../11-concurrency/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Security](../../13-security/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Logs describe events, metrics summarize behavior, and traces connect work across boundaries. Debugging is hypothesis testing using evidence.
 
 ```text

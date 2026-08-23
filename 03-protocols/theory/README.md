@@ -2,6 +2,10 @@
 
 [Previous: OS Resources](../../02-os-resources/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Networking And HTTP](../../04-networking-http/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 ## Why This Exists
 
 Independent systems only share meaning when they share rules for bytes: encoding, framing, fields, message types, and errors.

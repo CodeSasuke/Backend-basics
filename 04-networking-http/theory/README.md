@@ -2,6 +2,10 @@
 
 [Previous: Protocols](../../03-protocols/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 ## Why This Exists
 
 A network adds distance, latency, independent failures, and uncertainty. HTTP gives request and response messages shared meaning through methods, targets, headers, bodies, and status codes.

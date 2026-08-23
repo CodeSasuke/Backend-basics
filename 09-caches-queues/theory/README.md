@@ -2,6 +2,10 @@
 
 [Previous: Transactions](../../08-transactions/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Failure And Retries](../../10-failure-retries/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 A cache improves speed but may be stale. A queue separates producers and consumers, introducing delay, duplication, ordering, acknowledgement, and retry questions.
 
 ```text

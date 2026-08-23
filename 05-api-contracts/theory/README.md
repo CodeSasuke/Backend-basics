@@ -2,6 +2,10 @@
 
 [Previous: Networking And HTTP](../../04-networking-http/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Application Structure](../../06-application-structure/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 An API is a promise between independent programs. A useful contract defines inputs, outputs, errors, guarantees, and how change remains compatible.
 
 ```text

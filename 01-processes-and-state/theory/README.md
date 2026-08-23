@@ -2,6 +2,10 @@
 
 [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 ## Why This Exists
 
 A backend is a running process that transforms input into output while state influences future behavior. If state is unclear, restart behavior, correctness, and bugs become mysterious.

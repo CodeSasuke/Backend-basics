@@ -2,6 +2,10 @@
 
 [Previous: Observability](../../12-observability/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Testing And Delivery](../../14-testing-delivery/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Security protects confidentiality, integrity, and availability under adversarial input. Every boundary is untrusted; every privilege should be minimized.
 
 ```text

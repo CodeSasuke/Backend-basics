@@ -2,6 +2,10 @@
 
 [Previous: API Contracts](../../05-api-contracts/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Persistence Modeling](../../07-persistence-modeling/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Structure isolates change. Transport translates protocol messages, the application layer coordinates a use case, domain code enforces decisions, and infrastructure persists or calls external systems.
 
 ```text

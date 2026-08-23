@@ -2,6 +2,10 @@
 
 [Previous: Application Structure](../../06-application-structure/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Transactions](../../08-transactions/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 Persistent state outlives a process. Start with facts and invariants, then choose tables, keys, constraints, indexes, and migrations.
 
 ```text

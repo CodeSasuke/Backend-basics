@@ -2,6 +2,10 @@
 
 [Previous: Deployment And Scaling](../../15-deployment-scaling/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Build log](../exercises/experiment.md) | [Starter code](../code/main.py)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [build log](../exercises/experiment.md).
+
 The capstone combines the earlier boundaries: API contract, domain invariants, durable state, transactions, asynchronous work, failure handling, security, observability, testing, and deployment.
 
 ```text

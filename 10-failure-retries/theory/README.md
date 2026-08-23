@@ -2,6 +2,10 @@
 
 [Previous: Caches And Queues](../../09-caches-queues/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/theory/README.md)
 
+## Code Example
+
+Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+
 A timeout means the caller lacks an answer; it does not prove an operation did not happen. Safe recovery needs deadlines, bounded retries, backoff, idempotency, and a clear fallback.
 
 ```text
