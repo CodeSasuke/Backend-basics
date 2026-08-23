@@ -2,6 +2,8 @@
 
 This repository is a hands-on companion to [ROADMAP.md](ROADMAP.md). Python is used for experiments; the explanations, models, contracts, and trade-offs are language-independent.
 
+New here? Start with [START_HERE.md](START_HERE.md).
+
 Use [PROGRESS.md](PROGRESS.md) to track completion, [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) to understand the learner files, and [ROADMAP.md](ROADMAP.md) as the navigation hub.
 
 ## Learning Loop
@@ -10,8 +12,8 @@ For each module, work in this order:
 
 1. Read `theory/README.md` and answer its questions on paper.
 2. Open `exercises/README.md` and make a prediction before running code.
-3. Run and modify `code/main.py`.
-4. Write tests for the invariant or contract you discovered.
+3. Run `code/main.py` and modify `code/exercise.py`.
+4. Run the learner test file when the module provides one.
 5. Record evidence and explain the idea without Python-specific vocabulary.
 
 Every module has:
@@ -19,8 +21,15 @@ Every module has:
 ```text
 module/
   theory/README.md       concepts, visuals, Socratic prompts
+  theory/notes.md        your theory notes
   exercises/README.md   experiments, tasks, exit checks
+  exercises/hints.md    optional hints
+  exercises/experiment.md prediction and evidence
+  exercises/answers.md   your answers and review
   code/main.py           Python starting point
+  code/exercise.py       your exercise implementation
+  code/test_exercise.py  learner checks when provided
+  code/solution.py       optional solution workspace
 ```
 
 ## Setup
@@ -28,7 +37,6 @@ module/
 ```text
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install pytest
 ```
 
 Run a starter:

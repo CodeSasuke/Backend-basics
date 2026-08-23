@@ -2,6 +2,7 @@
 
 This file is the course index. Use it to choose the next module and open its materials. The explanations, visuals, Socratic questions, exercises, and code belong inside the module folders.
 
+[Start here](START_HERE.md) |
 [Progress dashboard](PROGRESS.md) | [Template guide](TEMPLATE_GUIDE.md) | [Shared notes-service project](projects/notes-service/README.md)
 
 ## Learning Flow
@@ -25,9 +26,12 @@ module/
   theory/README.md       lesson content
   theory/notes.md        your theory notes
   exercises/README.md    exercises and task
+  exercises/hints.md     optional hints
   exercises/experiment.md prediction and evidence
   exercises/answers.md   your answers and review
   code/main.py           reference starter
+  code/exercise.py       your exercise implementation
+  code/test_exercise.py  learner checks when provided
   code/solution.py       your implementation
 ```
 
