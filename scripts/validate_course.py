@@ -15,6 +15,7 @@ REQUIRED = (
     "exercises/answers.md",
     "exercises/hints.md",
     "code/main.py",
+    "code/exercise.py",
     "code/solution.py",
 )
 
