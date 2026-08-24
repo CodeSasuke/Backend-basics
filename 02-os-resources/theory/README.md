@@ -2,26 +2,6 @@
 
 [Previous: Processes and State](../../01-processes-and-state/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Protocols](../../03-protocols/theory/README.md)
 
-## Code Example
-
-Run the [starter program](../code/main.py) after creating a small job file. The program reads one job per line, counts valid jobs, and records malformed input. It obtains the file name from the `JOB_FILE` environment variable; when that variable is absent, it uses `jobs.txt`.
-
-Do not run the program yet. First follow the sequence below. The purpose of the experiment is not merely to make the program run. It is to observe how an ordinary application depends on resources controlled by the operating system.
-
-## How to Study This Lesson
-
-Complete the lesson in this order. The order matters because a prediction made before execution gives you something specific to test.
-
-1. **Read the model.** Read this chapter through the section titled [The Resource Boundary](#the-resource-boundary). Focus on the ideas of ownership, lifetime, limit, and failure mode.
-2. **Read the example.** Read [the starter program](../code/main.py) without modifying it. Identify where configuration enters, where the file is acquired, where each line is classified, and where cleanup is guaranteed.
-3. **Make predictions.** Open the [experiment log](../exercises/experiment.md) and complete its `Prediction` section. Predict the result for a missing file, a valid job file, malformed lines, and a changed `JOB_FILE` value. Do this before running any command.
-4. **Run the experiment.** Follow the steps in the experiment log. Record the exact output, the exit status, and any differences between your predictions and the observed behavior.
-5. **Answer the Socratic questions.** Return to the questions in this chapter after recording the observations. Answer them using evidence from the code and the experiment, rather than giving only general definitions.
-6. **Complete the exercises.** Work through the [module exercises](../exercises/README.md). They extend the example to temporary files, child processes, missing environment variables, interruption, and partial progress.
-7. **Perform the exit check.** Draw the resource boundaries around the worker and identify the owner, cleanup action, limit, and failure behavior for each resource. Compare your response with [the expected observations](../exercises/expected.md) only after making your own attempt.
-
-The theory explains the concepts, the experiment supplies evidence, the Socratic questions test your reasoning, and the exercises require you to apply the ideas. Keep those stages separate in your notes.
-
 ## Why This Matters
 
 The process studied in the previous lesson does not execute in isolation. It runs on a machine whose CPU time, memory, file descriptors, sockets, and process slots are finite. The operating system mediates access to these resources and decides what the process is allowed to do.
@@ -137,6 +117,12 @@ close file and report totals
 ```
 
 Notice the separation of concerns. The file must be available before a job can be interpreted. Once the file is open, malformed records are data-quality failures and do not necessarily require the entire worker to stop. The `with` block closes the file after either path. This is a small example of a larger backend design principle: classify failures at the boundary where they occur, and give each failure a response appropriate to its scope.
+
+## Code Example
+
+Now read the [starter program](../code/main.py) from top to bottom, without modifying or running it. The program reads one job per line, counts valid jobs, and records malformed input. It obtains the file name from the `JOB_FILE` environment variable; when that variable is absent, it uses `jobs.txt`.
+
+Before you run the program, create predictions in the [experiment log](../exercises/experiment.md). Predict what will happen when the file is missing, when it contains valid and malformed lines, and when `JOB_FILE` points to a different file. Then run the experiment and record the exact output and exit status. Finally, answer the Socratic questions below using both the code and your observations.
 
 ## Socratic Questions
 
