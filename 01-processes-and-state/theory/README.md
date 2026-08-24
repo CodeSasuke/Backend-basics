@@ -74,6 +74,9 @@ Common mistakes include confusing a variable with durable storage, allowing inva
 
 ### Socratic answers
 
-- 
+- The process remembers the current `balance` between commands.
+- The in-memory balance and transaction history disappear when the process restarts; the balance resets to `0`.
+- `apply_command(balance, command)` is a pure transformation because it returns the next balance and output without external side effects.
+- The balance must never become negative. Invalid commands and rejected withdrawals must leave it unchanged.
 
 ### Exit-check answer
