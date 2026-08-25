@@ -2,9 +2,9 @@
 
 [Previous: Testing And Delivery](../../14-testing-delivery/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Capstone](../../16-capstone/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson connects deployment, capacity, state, operational ownership, and the trade-offs involved in scaling. Read the theory and inspect the starter code before running it.
 
 Deployment places a service in an environment with finite resources and operational ownership. Scaling means finding and relieving bottlenecks while managing state, coordination, consistency, and cost.
 
@@ -24,6 +24,12 @@ Defend one scaling decision with an estimate and name its uncertainty.
 Production introduces variable traffic, finite resources, dependency failures, and operational ownership. Scaling relieves bottlenecks while managing state, consistency, coordination, and cost.
 
 Adding service instances does not fix a saturated database. Capacity estimates begin with assumptions about concurrency, latency, and resource limits. Health means the process can serve; readiness means dependencies are usable.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the capacity assumptions, state ownership, health conditions, bottleneck, and rollback boundary. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

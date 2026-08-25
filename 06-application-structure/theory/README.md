@@ -2,9 +2,9 @@
 
 [Previous: API Contracts](../../05-api-contracts/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Persistence Modeling](../../07-persistence-modeling/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson introduces boundaries between transport, application, domain, and infrastructure code. Read the theory and inspect the starter code before running it.
 
 Structure isolates change. Transport translates protocol messages, the application layer coordinates a use case, domain code enforces decisions, and infrastructure persists or calls external systems.
 
@@ -29,6 +29,12 @@ adapter -> use case -> domain rules -> repository interface
 The adapter translates protocols, the use case coordinates work, domain code decides what is allowed, and infrastructure implements storage or network access. This lets rules be tested without a socket.
 
 Ask yourself: Which layer should know an HTTP status? Where does a transaction begin? What can change independently? Avoid putting all logic in handlers.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Trace one request through transport, application, domain, and infrastructure boundaries. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

@@ -2,9 +2,9 @@
 
 [Previous: Security](../../13-security/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Deployment And Scaling](../../15-deployment-scaling/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson explains how tests make behavioral claims and how delivery processes make those claims repeatable. Read the theory and inspect the starter code before running it.
 
 Tests are executable claims about behavior. Unit tests isolate rules, integration tests verify boundaries, contract tests protect agreements, and end-to-end tests verify workflows.
 
@@ -25,6 +25,12 @@ Prove that a refactor preserved behavior, not merely object structure.
 Code can appear correct while violating important behavior. Unit tests isolate rules, integration tests verify boundaries, contract tests protect agreements, and end-to-end tests verify workflows.
 
 A unit test proves an overdraft is rejected; an integration test proves the database constraint and transaction behavior. Ask which behavior is worth protecting and what a clean checkout must reproduce.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the behavior under test, the boundary being exercised, and the evidence a clean delivery should reproduce. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

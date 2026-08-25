@@ -2,9 +2,9 @@
 
 [Previous: Application Structure](../../06-application-structure/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Transactions](../../08-transactions/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson explains how facts become durable state and how invariants survive process restarts. Read the theory and inspect the starter code before running it.
 
 Persistent state outlives a process. Start with facts and invariants, then choose tables, keys, constraints, indexes, and migrations.
 
@@ -31,6 +31,12 @@ invariant: true before and after a valid change
 An account balance can have a database constraint that it is never negative. Application validation is useful, but the database is a second defense.
 
 Ask yourself: Which facts must survive restart? What is the source of truth? Where should uniqueness be enforced?
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the durable facts, source of truth, constraints, and changes that must survive a restart. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

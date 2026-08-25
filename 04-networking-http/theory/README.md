@@ -2,9 +2,9 @@
 
 [Previous: Protocols](../../03-protocols/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: API Contracts](../../05-api-contracts/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson explains the uncertainty introduced by networks and the conventions HTTP uses to represent requests and responses. Read the theory and inspect the starter code before running it.
 
 ## Why This Exists
 
@@ -44,6 +44,12 @@ A health request can return `200`; an unknown path can return `404`. A timeout m
 Ask yourself: Why can a server receive a request but fail to respond? Which operations are safe to retry? What belongs in headers?
 
 Common mistakes include retrying writes blindly, forgetting timeouts, and treating status codes as the entire API contract.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the request boundary, the response boundary, and every point at which a network operation can fail. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

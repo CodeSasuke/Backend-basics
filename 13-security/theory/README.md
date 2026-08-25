@@ -2,9 +2,9 @@
 
 [Previous: Observability](../../12-observability/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Testing And Delivery](../../14-testing-delivery/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson treats every external input and identity as untrusted until the appropriate controls have been applied. Read the theory and inspect the starter code before running it.
 
 Security protects confidentiality, integrity, and availability under adversarial input. Every boundary is untrusted; every privilege should be minimized.
 
@@ -23,6 +23,12 @@ For every endpoint, identify the asset, attacker capability, trust boundary, and
 Public inputs and external identities are untrusted. Security protects confidentiality, integrity, and availability. Authentication asks who; authorization asks what that identity may do.
 
 A user may authenticate successfully but still be forbidden from reading another user's private note. Ask what the asset is, where data can become code or a query, and what happens if a token is stolen. Never store plaintext passwords or log secrets.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify every untrusted input, authentication decision, authorization decision, sensitive asset, and security-relevant failure. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

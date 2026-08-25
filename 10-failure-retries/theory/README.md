@@ -2,9 +2,9 @@
 
 [Previous: Caches And Queues](../../09-caches-queues/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Concurrency](../../11-concurrency/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson explains how to reason about timeouts, retries, and operations whose outcome is unknown. Read the theory and inspect the starter code before running it.
 
 A timeout means the caller lacks an answer; it does not prove an operation did not happen. Safe recovery needs deadlines, bounded retries, backoff, idempotency, and a clear fallback.
 
@@ -24,6 +24,12 @@ Explain the difference between failed work and unknown outcome.
 Dependencies fail, become slow, or return unknown outcomes. A backend needs deadlines, bounded retries, backoff, idempotency, and a clear fallback.
 
 A payment timeout does not prove that payment did not happen. An idempotency key lets a retry refer to the same operation. Ask which failures are retryable and how to prevent retries from multiplying load.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the deadline, retry budget, backoff, idempotency protection, and unknown-outcome path. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

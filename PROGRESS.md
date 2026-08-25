@@ -13,10 +13,11 @@ Update this file after each module. Use the module links in [ROADMAP.md](ROADMAP
 For every module:
 
 - [ ] Theory read
+- [ ] Starter code read
 - [ ] Personal notes written
-- [ ] Socratic questions answered
 - [ ] Prediction recorded
 - [ ] Experiment completed
+- [ ] Socratic questions answered
 - [ ] Exercise task attempted
 - [ ] Tests written
 - [ ] Exit check passed

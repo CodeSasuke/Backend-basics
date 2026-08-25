@@ -2,9 +2,9 @@
 
 [Previous: OS Resources](../../02-os-resources/theory/README.md) | [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: Networking And HTTP](../../04-networking-http/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson explains how independent systems agree on the meaning of bytes. Read the theory and inspect the starter code before running it.
 
 ## Why This Exists
 
@@ -42,6 +42,12 @@ meaning -> encode -> bytes
 Ask yourself: How does the receiver know where a message ends? What happens to an unknown field? Which compatibility rule lets old clients continue working?
 
 Common mistakes include combining parsing and business rules in one opaque function and changing a format without a compatibility plan.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the byte-to-message boundary, the parser, the validator, and the encoder. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 

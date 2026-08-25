@@ -10,12 +10,13 @@ This file is the course index. Use it to choose the next module and open its mat
 For each module:
 
 1. Open **Theory** and read the lesson.
-2. Write your thinking in **Notes**.
-3. Open **Exercises** and make a prediction.
-4. Record the experiment in **Experiment log**.
-5. Implement in **Solution** while comparing with **Starter code**.
-6. Record your answers and complete the **Exit check**.
-7. Move to the next module only when you can explain the idea without relying on Python vocabulary.
+2. Read the module's **Starter code** and identify the important inputs, state, rules, outputs, and boundaries.
+3. Open **Exercises** and make a prediction before running anything.
+4. Record and run the experiment in **Experiment log**.
+5. Answer the theory **Socratic questions** using the code and your observations.
+6. Implement the task in **Exercise code** while comparing with **Starter code**.
+7. Record your answers and complete the **Exit check**.
+8. Move to the next module only when you can explain the idea without relying on Python vocabulary.
 
 ## Module Workspace
 

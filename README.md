@@ -12,11 +12,14 @@ Read [SOCRATIC_METHOD.md](SOCRATIC_METHOD.md) to understand the dialogue-based t
 
 For each module, work in this order:
 
-1. Read `theory/README.md` and answer its questions on paper.
-2. Open `exercises/README.md` and make a prediction before running code.
-3. Run `code/main.py` and modify `code/exercise.py`.
-4. Run the learner test file when the module provides one.
-5. Record evidence and explain the idea without Python-specific vocabulary.
+1. Read `theory/README.md` and understand its model and vocabulary.
+2. Read `code/main.py` without modifying or running it; identify the important behavior.
+3. Open `exercises/README.md` and make a prediction before running code.
+4. Record and run the experiment in `exercises/experiment.md`.
+5. Answer the Socratic questions in the theory notes using the code and observed evidence.
+6. Implement the task in `code/exercise.py`.
+7. Run the learner test file when the module provides one.
+8. Record the final evidence and explain the idea without Python-specific vocabulary.
 
 Every module has:
 

@@ -28,12 +28,12 @@ The Guide is a thinking prompt. It does not automatically read your answers, exe
 For every module:
 
 1. Read the theory and visual model.
-2. Read the question from the Guide.
-3. Answer it before looking at the expected observation.
-4. Write your prediction in `exercises/experiment.md`.
-5. Run `code/main.py`.
-6. Compare the result with your prediction.
-7. Record evidence and changed assumptions.
+2. Read `code/main.py` without modifying or running it.
+3. Read the question from the Guide and write your prediction in `exercises/experiment.md`.
+4. Run `code/main.py` only after recording the prediction.
+5. Compare the result with your prediction.
+6. Record evidence and changed assumptions.
+7. Answer the Socratic questions in the theory notes using that evidence.
 8. Implement the task in `code/exercise.py`.
 9. Run the learner tests when available.
 10. Use the exit check to explain the idea without relying on Python vocabulary.

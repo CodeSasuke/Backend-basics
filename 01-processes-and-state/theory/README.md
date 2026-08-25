@@ -2,9 +2,9 @@
 
 [Roadmap](../../ROADMAP.md) | [Exercises](../exercises/README.md) | [Experiment](../exercises/experiment.md) | [Starter code](../code/main.py) | [Next: OS Resources](../../02-os-resources/theory/README.md)
 
-## Code Example
+## Lesson Orientation
 
-Run [the starter code](../code/main.py), then record your prediction and observations in the [experiment log](../exercises/experiment.md).
+This lesson establishes the distinction between a running process, the state it holds, and effects that outlive the computation. Read the theory and inspect the starter code before running it.
 
 ## Why This Exists
 
@@ -50,6 +50,12 @@ For a ledger with balance `10`, `withdraw 4` produces output `6` and new state `
 Ask yourself: What disappears when the process stops? Which operations are pure transformations? Why should invalid input leave state unchanged?
 
 Common mistakes include confusing a variable with durable storage, allowing invalid transitions to mutate state, and testing only the happy path.
+
+## Code Example
+
+Read the [starter program](../code/main.py) from top to bottom without modifying or running it. Identify the state, the transition function, the input boundary, and the output boundary. Before executing the program, record your predictions and observations in the [experiment log](../exercises/experiment.md).
+
+Run the experiment only after making your predictions. Then answer the Socratic questions below using both the code and the evidence you recorded.
 
 ## Dialogue Check
 
